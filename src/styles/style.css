@@ -1,0 +1,244 @@
+#map {
+  height: 1500px;
+  /* width: 500px; */
+}
+
+html {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 16px;
+
+  color: black;
+  background-color: #ffffff;
+  font-weight: normal;
+}
+
+.container {
+  padding: 0px 0.5em 0px 0.5em;
+  margin: 0px auto 0px auto;
+  max-width: 1170px;
+}
+
+.navbar {
+  font-size: 16px;
+}
+
+ul#horizontal-list {
+  list-style: none;
+}
+ul#horizontal-list li {
+  display: inline;
+  display: flex;
+}
+
+ul#horizontal-list {
+  margin-right: 10px;
+}
+
+header h1 {
+  font-weight: 300;
+  margin: 0px;
+  font-size: 30px;
+}
+
+header .tagline {
+  font-weight: 300;
+  margin: 0px;
+  padding-bottom: 1rem;
+}
+
+.powerbi {
+  border: 0;
+}
+#myTable {
+  width: 100%;
+}
+.booth {
+  margin-top: 10px;
+}
+
+ul .features {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul .features li {
+  display: flex;
+}
+
+ul.features .feature-icon {
+  padding: 1rem;
+}
+
+ul.features .feature-descr {
+  flex-grow: 1;
+}
+
+footer p {
+  margin: 0px;
+  padding: 2rem 0px 2rem 0px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+  header {
+    background-size: cover;
+  }
+  header .tagline {
+    font-size: 1.5rem;
+    width: 50%;
+  }
+
+  ul.features {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul.features li {
+    flex-basis: 50%;
+  }
+
+  ul#horizontal-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul#horizontal-list li {
+    flex-basis: 33%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+  ul.features li {
+    flex-basis: 33%;
+  }
+  ul#horizontal-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul#horizontal-list li {
+    flex-basis: 33%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+/* Sets the containers height and width */
+.base-timer {
+  position: relative;
+  height: 50px;
+  width: 50px;
+}
+
+/* Removes SVG styling that would hide the time label */
+.base-timer__circle {
+  fill: none;
+  stroke: none;
+}
+
+/* The SVG path that displays the timer's progress */
+.base-timer__path-elapsed {
+  stroke-width: 1px;
+  stroke: grey;
+}
+
+.base-timer__label {
+  position: absolute;
+
+  /* Size should match the parent container */
+  width: 3px;
+  height: 3px;
+
+  /* Keep the label aligned to the top */
+  top: 0;
+
+  /* Create a flexible box that centers content vertically and horizontally */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Sort of an arbitrary number; adjust to your liking */
+  font-size: 48px;
+}
+
+header .container {
+  text-align: center;
+  /* color: black; */
+  color: lightskyblue;
+}
+
+.popularheader {
+  margin-top: 0px;
+}
+
+footer {
+  display: block;
+  text-align: center;
+}
+
+iframe {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  display: block;
+}
+
+td,
+th {
+  text-align: right;
+}
+
+.non-numeric {
+  text-align: left;
+}
+
+#table-wrapper {
+  position: relative;
+}
+
+#tables {
+  height: 150px;
+  overflow: auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#table-wrapper table {
+  width: 100%;
+}
+
+#table-wrapper table thead th .text {
+  position: absolute;
+  top: -20px;
+  z-index: 2;
+  height: 20px;
+  width: 35%;
+  border: 1px solid red;
+}
+
+/* .return {
+  color: black;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+} */
+
+/* .nav-item p-2 {
+  color: black;
+} */
+/* nav bar flex box*/
+/* .collapse {
+  display: flex;
+}
+.item {
+  flex-grow: 10;
+  justify-content: flex-end;
+} */
