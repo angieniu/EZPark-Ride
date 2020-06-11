@@ -14,7 +14,7 @@ Right now, I feel my life is brightened because of all the efforts I have made i
 
 I want to give my special thanks to Professor Nick DeNardis, who guided me all the way patiently and creatively. When there were some challenges which I spent many hours trying to solve, Nick was always very helpful to provide useful resources and thoughts which inspired me to conquer each challenge.
 
-Now, the project I made is being integrated into a larger team project. I am the software engineer and user experience research in the team and collaborating with other data scientist, data engineer, and cloud engineer to develop the project to the next level.
+Now, the project I made is being integrated into a larger team project. I am the software engineer and user experience researcher in the team and collaborating with other data scientist, data engineer, and cloud engineer to develop the project to the next level.
 Note:
 Some specifics about this project:
 
