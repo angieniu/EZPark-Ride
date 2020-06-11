@@ -2,6 +2,8 @@
 
 This project aims to provide users with real-time information about the parking availability of each Park and Ride facility in the Greater Seattle Area.
 
+The link to the app is https://angieniu.github.io/EZPark-Ride/
+
 This application visualizes real-time parking availability data every 30 seconds. The custom data is generated to test the application.
 
 I created this project because I studied history and anthropology and did social social research for almost ten years. In the whole process, I enjoyed listening to what people were talking about, observing what people were experiencing, because I always care about people and their needs. When I started to learn information science and web development, I feel very excited to be able to make actionable solutions through my own implementation and build things to help people address their needs in real life.
