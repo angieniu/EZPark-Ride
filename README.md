@@ -4,7 +4,7 @@ This project aims to provide users with real-time information about the parking 
 
 The link to the app is https://angieniu.github.io/EZPark-Ride/
 
-Demo of this app: https://www.youtube.com/watch?v=jKQVeijjJtU&feature=youtu.be
+Demo of this app: https://youtu.be/0ETBjdwgXzU
 
 This application visualizes real-time parking availability data every 30 seconds. The custom data is generated to test the application.
 
